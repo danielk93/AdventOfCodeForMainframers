@@ -1,3 +1,0 @@
-/z/z35260/AOC2023 > cob2 Day1.cbl -o Day1
-/z/z35260/AOC2023 > cat Day1Input|./Day1
-Santa is in floor:  0280
