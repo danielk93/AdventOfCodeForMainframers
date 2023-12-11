@@ -13,4 +13,4 @@ Now, you have to figure out how many ways there are to win this single race. In 
 
 How many ways can you beat the record in this one much longer race?
 
--- Hint: Soved with Regina REXX Interpreter
+-- Hint: Solved with Regina REXX Interpreter

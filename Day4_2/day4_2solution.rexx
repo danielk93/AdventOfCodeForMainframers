@@ -6,7 +6,7 @@ file.3 = 'Card  3: 47 97  2 80 89 56 66 85 62 46 | 78 97 47 14 15 85 42 66 24'
 file.0 = 3
 */
 
-x = bpxwunix('cat /z/userid/aoc2023/day4solutioninput.txt',,file.,se.)
+x = bpxwunix('cat /z/zuserid/aoc2023/day4solutioninput.txt',,file.,se.)
 
 copiesof. = 1
 total = 0
