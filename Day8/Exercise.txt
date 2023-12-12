@@ -30,3 +30,5 @@ ZZZ = (ZZZ, ZZZ)
 Starting at AAA, follow the left/right instructions. How many steps are required to reach ZZZ?
 
 To begin, get your puzzle input.
+
+-- Hint: Solved with Regina REXX Interpreter / 3270 und USS
