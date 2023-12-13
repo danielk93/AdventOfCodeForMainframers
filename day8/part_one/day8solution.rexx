@@ -50,29 +50,3 @@ do while(found=0)
 end
 
 exit
-
-dfs: procedure expose nodes. route.
-  /* Did not need it, as it runs into CONTROL STACK FULL and
-     we van just loop as we done above, keeping code though :)
-  */
-  parse arg start,finish,step
-
-  /* need clock math here */
-  wstep = step
-  do while(wstep > route.0)
-    wstep = wstep - route.0
-  end
-
-  if route.wstep = 'L'
-  then move = 'LEFT'
-  else move = 'RIGHT'
-
-  if nodes.start.move = finish then do
-    /* thinking of last years monkeys: is this HEAD recursion? :) */
-    return step
-  end
-  else do
-    start = nodes.start.move
-    step = step + 1
-    return dfs(start,finish,step)
-  end
